@@ -1,0 +1,99 @@
+body {
+  	font-weight: 300;
+  	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-size: 0.85em;
+}
+
+h2, h3, h4, h5 {
+  font-weight: 500;
+}
+
+ul {
+	margin-bottom: 0em;
+}
+
+
+h1 {
+	font-weight: 800;
+	font-size: 8.0rem;
+	color: yellow;
+}
+
+a {
+	color: teal;
+}
+
+.h0 {
+	font-weight: 600;
+	font-size: 5.0rem;
+}
+
+footer {
+	margin: 0px;
+	background-color: rgb(41, 41, 41);
+	#c3cccc;
+}
+
+header {
+	background-image: url(/assets/Fluyt_Colors.png)
+}
+
+hr {
+	margin: 0em;
+	padding: 0em;
+}
+
+.footer-text {
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+
+.footer-text a {
+	color: #b4ecec;
+}
+
+.background {
+	color: black;
+	background-color: white;
+}
+
+.nav-elem{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 4vw;
+	margin-right: 4vw;
+	font-weight: 400;
+}
+
+.big_image{
+	padding-bottom: 200px;
+}
+
+.nav {
+	font-weight: 300;
+	font-size: 1.0rem;
+	color: white;
+}
+
+.nav a {
+	color: white;
+}
+
+.nav a:hover {
+	color: white;
+}
+
+.bg-transparant {
+	background-color: black;
+	opacity: 0.7;
+}
+
+.one_padding {
+	padding-left: 2vw;
+	padding-right: 2vw;	
+}
