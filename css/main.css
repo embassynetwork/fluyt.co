@@ -26,8 +26,8 @@ h1 {
 	font-size: 6.0rem;
 	color: yellow;
 	font-family: sans-serif;
-	margin-top: 2em;
-	padding-left: 1em;
+	margin-top: 1.5em;
+	padding-left: 0.5em;
 }
 
 a {
@@ -46,7 +46,7 @@ footer {
 }
 
 header {
-	background-image: url(/assets/FLUYT.png);
+	background-image: url(/assets/Fluyt_Colors.png);
 }
 
 
@@ -110,4 +110,20 @@ img, hr {
 .one_padding {
 	padding-left: 2vw;
 	padding-right: 2vw;	
+}
+
+@media only screen and (max-width: 768px) {
+   h1 {
+      font-size: 4em;
+   }
+
+   .header-p {
+
+   }
+}
+
+@media only screen and (max-width: 320px) {
+   h1 {
+     font-size: 4em;
+   }
 }
