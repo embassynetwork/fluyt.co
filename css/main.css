@@ -16,8 +16,8 @@ ul {
 }
 
 hr {
-	border-width: 0.5px;
-	border-bottom-color: rgba(0,0,0,1);
+	border-width: 1.0px;
+	border-bottom-color: rgba(0,0,0,1.0);
 }
 
 
@@ -30,7 +30,7 @@ h1 {
 	padding-left: 0.3em;
 }
 
-h3 {
+.category h3 {
 	margin-top: 1.5em;
 }
 
@@ -53,11 +53,24 @@ header {
 	background-image: url(/assets/Fluyt_Colors.png);
 }
 
+.pickgradient {
+  display:inline-block;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,51,102,0.30) 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,51,102,0.30) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+img{
+  position:relative;
+  z-index:-1;
+  display:block;
+}
 
 img, hr {
 	margin: 0em;
 	padding: 0em;
-	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
 
 .fluyt_teal {
@@ -122,6 +135,10 @@ img, hr {
 
 .h3-bigger {
 	font-size: 1.85rem;
+}
+
+.cat-img {
+	padding-bottom: 0em;
 }
 
 @media only screen and (max-width: 768px) {
