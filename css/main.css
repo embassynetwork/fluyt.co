@@ -117,7 +117,11 @@ img, hr {
 }
 
 .lighter {
-	font-weight: 300;
+	font-weight: 100;
+}
+
+.h3-bigger {
+	font-size: 1.85rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -135,3 +139,4 @@ img, hr {
      font-size: 4em;
    }
 }
+
