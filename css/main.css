@@ -38,10 +38,11 @@ footer {
 }
 
 header {
-	background-image: url(/assets/Fluyt_Colors.png)
+	background-image: url(/assets/Fluyt_Colors.png);
 }
 
-hr {
+
+img, hr {
 	margin: 0em;
 	padding: 0em;
 }
@@ -55,20 +56,15 @@ hr {
 	color: #b4ecec;
 }
 
+.negative-margin {
+
+}
+
 .background {
 	color: black;
 	background-color: white;
 }
 
-.nav-elem{
-	padding-bottom: 15px;
-	padding-top: 15px;
-	margin-bottom: 0px;
-	margin-top: 0px;
-	margin-left: 4vw;
-	margin-right: 4vw;
-	font-weight: 400;
-}
 
 .big_image{
 	padding-bottom: 200px;
