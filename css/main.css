@@ -1,10 +1,10 @@
 body {
   	font-weight: 300;
-  	font-family: 'Roboto', sans-serif;
+  	font-family: "Lota", sans-serif;
 }
 
 p {
-	font-size: 0.85em;
+	font-size: 0.9em;
 }
 
 h2, h3, h4, h5 {
@@ -15,11 +15,17 @@ ul {
 	margin-bottom: 0em;
 }
 
+hr {
+	border-width: 0.5px;
+	border-bottom-color: rgba(0,0,0,1);
+}
+
 
 h1 {
 	font-weight: 800;
 	font-size: 8.0rem;
 	color: yellow;
+	font-family: "sans-serif", sans-serif;
 }
 
 a {
@@ -38,13 +44,17 @@ footer {
 }
 
 header {
-	background-image: url(https://embassynetwork.github.io/fluyt.co/assets/Fluyt_Colors.png);
+	background-image: url(/assets/FLUYT.png);
 }
 
 
 img, hr {
 	margin: 0em;
 	padding: 0em;
+}
+
+.fluyt_teal {
+	color: rgb(57,204,204);
 }
 
 .footer-text {
