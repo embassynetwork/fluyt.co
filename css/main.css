@@ -57,7 +57,12 @@ img, hr {
 }
 
 .fluyt_teal {
-	color: rgb(57,204,204);
+	color: #008080;
+}
+
+.fluyt_teal_light {
+	color: #00e2e2;
+	opacity: 80%;
 }
 
 .footer-text {
