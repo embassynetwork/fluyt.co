@@ -38,7 +38,7 @@ footer {
 }
 
 header {
-	background-image: url(/assets/Fluyt_Colors.png);
+	background-image: url({{site.baseurl}}/assets/Fluyt_Colors.png);
 }
 
 
