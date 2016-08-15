@@ -120,6 +120,11 @@ img, hr {
 	font-weight: 300;
 }
 
+.h3-bigger {
+	font-size: 1.85rem;
+	font-weight: 100;
+}
+
 @media only screen and (max-width: 768px) {
    h1 {
       font-size: 4em;
@@ -136,6 +141,3 @@ img, hr {
    }
 }
 
-.h3-bigger {
-	font-size: 1.85rem;
-}
